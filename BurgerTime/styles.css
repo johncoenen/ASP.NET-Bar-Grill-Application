@@ -1,0 +1,154 @@
+﻿body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+section {
+    display: flex;
+}
+
+.container-top {
+    font-family: 'Ultra', serif;/**add fallback**/
+    font-size: xx-large;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: whitesmoke;
+
+    background-color: black;   
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;    
+    justify-content: space-around;
+}
+
+.container-bar {
+    font-family: 'Lato', sans-serif;/**add fallback**/
+    font-size: medium;
+    color: black;
+      
+    display:flex;
+    flex: none;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content:space-between;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    
+}
+
+.container-menu {
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    color: whitesmoke;
+
+    background-color: black;   
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;    
+    justify-content: space-around;
+}
+
+.about {
+    order: 1;
+}
+
+.address { 
+    order: 2;
+}
+
+.phone {
+    order: 3;
+}
+
+.hours {
+    order: 4;
+}
+
+.menu  {
+    display: flex;
+    width: 100%;   
+   
+}
+
+.menu-col1 {
+    flex: 1;
+    font-family: Ultra, sans-serif;
+    border: 1px solid black;
+}
+
+.menu-col2 {
+    flex: 1;
+    font-family: Ultra, sans-serif;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: 1px solid black;
+}
+
+.itemTitle {
+    font-size: x-large; 
+    font-family: Ultra, sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    letter-spacing: 1px;       
+}
+
+a {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 70%;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.container-comments {
+    font-family: 'Ultra', serif;/**add fallback**/
+    font-size: medium;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: whitesmoke;
+
+    background-color: black;   
+    width: auto;
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;    
+    justify-content: space-around;
+}
+
+.table {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;    
+    width: 100%;
+    background: black;
+    font-family: Lato, sans-serif;
+    color: whitesmoke;
+}
+
+.footer {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    color: whitesmoke;    
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-around;
+}
